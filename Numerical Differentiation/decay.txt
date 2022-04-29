@@ -1,0 +1,13 @@
+PARTB
+In the cases of T=0.1 and 0.01 the initial value, where time =0, does not return N(initial). I instead hardcoded the first element of each array to equal N(initial).
+
+
+
+
+
+PARTC
+
+Nd is proportional to Td. 
+When Tp>>Td, Nd begins at zero and makes a very small jump over the first infitesimal time period and then exponentially decays
+When Tp ~ Td, Nd begins at zero and make a jump to the value of Np over a infinitesimal time period and then exponentially decays
+When Tp <<Td, Nd begins at zero and makes a jump much larger than Np over an infinitesimal time period and then exponentailly decays

@@ -1,0 +1,28 @@
+C:\Users\Lumpy\Documents\GitHub\assignment-3-numerical-integration-DakotaBosch>python adap.py
+ ~~Trapezoidal Adaptive Integration~~
+
+
+Number of slices =  2  error =  5.91E-02  I =  0.3252
+Number of slices =  4  error =  6.24E-02  I =  0.5123
+Number of slices =  8  error =  3.64E-02  I =  0.4030
+Number of slices =  16  error =  9.04E-03  I =  0.4301
+Number of slices =  32  error =  6.10E-03  I =  0.4484
+Number of slices =  64  error =  1.83E-03  I =  0.4539
+Number of slices =  128  error =  4.79E-04  I =  0.4553
+Number of slices =  256  error =  1.21E-04  I =  0.4557
+Number of slices =  512  error =  3.03E-05  I =  0.4558
+Number of slices =  1024  error =  7.58E-06  I =  0.4558
+
+
+ ~~Simpsons Adaptive Integration~~
+
+
+0.38431604889308213
+Number of slices =  2  error =  1.27E-02  I =  0.5746
+Number of slices =  4  error =  1.39E-02  I =  0.3666
+Number of slices =  8  error =  4.84E-03  I =  0.4391
+Number of slices =  16  error =  1.03E-03  I =  0.4545
+Number of slices =  32  error =  8.18E-05  I =  0.4557
+Number of slices =  64  error =  5.42E-06  I =  0.4558
+
+Yes, it is expected that the Simpson's rule approximation will have less error per slice. The Simpson's rule approximation uses quadratics to make its estimates while the trapezoidal problem uses 1st order linear equations.

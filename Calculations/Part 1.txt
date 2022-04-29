@@ -1,0 +1,48 @@
+Part A
+
+
+r = h + R            #radius from CM equal to earthradius+heightabovesurface
+
+GMm/r^2 = mv^2/r     #Gravitational force equal to centripetal force
+v = sqrt(GM/r)       #rearrange
+
+2pi*r = vt           #orbit length equals velocity (in phi) * period
+v = 2pi*r/t
+
+2pi*r/t = sqrt(GM/r)  #combining first two equations
+r = (GMt^2 / (4pi^2))^(1/3)
+h = (GMt^2 / (4pi^2))^(1/3) - R
+
+
+
+
+Part C
+
+C:\Users\Lumpy\Documents\GitHub\assignment-1-intro-to-python-DakotaBosch>python
+Satellite.py
+Hello user, please enter a desired period in seconds:86400
+The desired altitude of a satellite with period 86400 seconds is : 3.59e+07 mete
+rs
+
+C:\Users\Lumpy\Documents\GitHub\assignment-1-intro-to-python-DakotaBosch>python
+Satellite.py
+Hello user, please enter a desired period in seconds:5400
+The desired altitude of a satellite with period 5400 seconds is : 2.79e+05 meter
+s
+
+C:\Users\Lumpy\Documents\GitHub\assignment-1-intro-to-python-DakotaBosch>python
+Satellite.py
+Hello user, please enter a desired period in seconds:2700
+The desired altitude of a satellite with period 2700 seconds is : -2.18e+06 mete
+rs
+
+My conclusion is that a satellite cannot have  period as low as 2700s or else it would require it to be below the earths surface.
+
+
+
+
+Part D
+
+By definition, a sidereal day is the time it takes Earth to make a full rotational relative to the sun. A geosynchronous satellite would have to match this period in order to remain in phase.
+
+35855910 - 35773762 = 82148 meters difference in altitude 

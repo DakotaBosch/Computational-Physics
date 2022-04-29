@@ -1,0 +1,14 @@
+dakota@sweetness:~/Documents/Comp/assignment-4-monte-carlo-integration-DakotaBosch$ python hypersphere.py 
+A 0 Dimension Unit Circle has volume 1.000
+A 1 Dimension Unit Circle has volume 2.000
+A 2 Dimension Unit Circle has volume 3.141
+A 3 Dimension Unit Circle has volume 4.186
+A 4 Dimension Unit Circle has volume 4.926
+A 5 Dimension Unit Circle has volume 5.252
+A 6 Dimension Unit Circle has volume 5.185
+A 7 Dimension Unit Circle has volume 4.710
+A 8 Dimension Unit Circle has volume 4.040
+A 9 Dimension Unit Circle has volume 3.241
+A 10 Dimension Unit Circle has volume 2.560
+A 11 Dimension Unit Circle has volume 1.919
+A 12 Dimension Unit Circle has volume 1.323

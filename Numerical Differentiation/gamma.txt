@@ -1,0 +1,16 @@
+PART B
+z = 1/2 when x = c. 
+x = 1-a when the integrand is at a maximum... therefore c = 1-a.
+
+Integrand = x^(a-1)*e^-x
+	      = e^((a-1)*lnx)*e^-x
+		  = e^((a-1)*lnx-x)
+this new expression doesn't involve multiplication between a very large and a very small number.
+
+z=x/(c+x)
+z*(c+x) = x
+zc = x-xz
+zc = x(1-z)
+x=zc/(1-z)
+
+=> Integrand = e^((a-1)*ln(z*c/(1-z)))-(z*c/(1-z)))

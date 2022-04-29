@@ -1,0 +1,23 @@
+C:\Users\Lumpy\Documents\GitHub\assignment-2-more-python-and-accuracy-DakotaBosch>python deriv.py
+Hello user, please input a point at which to take the derivative:1
+dd 0.01
+1.010000000000001
+dd 0.0001
+1.0000999999998899
+dd 1e-06
+1.0000009999177333
+dd 1e-08
+1.0000000039225287
+dd 1e-10
+1.000000082840371
+dd 1e-12
+1.0000889005833413
+dd 1e-14
+0.9992007221626509
+
+
+The first approximation using delta = 0.01 is innacurate in the hundreth decimal place. This imprecision is due to the computer representing these floats in base 2 and the nature of float division.
+
+As delta gets smaller the limit becomes more accurate, this is how the derivative is defined. But after a certain threshold the float subtraction becomes dominated by noise.
+
+

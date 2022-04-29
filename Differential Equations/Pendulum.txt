@@ -1,0 +1,11 @@
+let @ = theta
+d^2@/dt^2 = -g/L * sin(@)
+
+x1(t) = @(t)
+x2(t) = @'(t)
+
+x1'(t) = @'(t) = x2
+x2'(t) = @'(t) = -g/L  * sin(@) = -g/L * sin(x1)
+
+=> x1' = x2
+   x2' = -g/L * sin(x1)

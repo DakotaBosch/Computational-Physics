@@ -1,0 +1,4 @@
+C:\Users\Lumpy\Documents\GitHub\assignment-1-intro-to-python-DakotaBosch>python SEMF.py
+Hello Welcome to the Semi-Emperical Mass Formula, please enter an atomic number:28
+Now enter the mass number:58
+The binding energy is: 490.78 MeV The binding energy per nucleon is; 8.46

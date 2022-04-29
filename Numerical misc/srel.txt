@@ -1,0 +1,9 @@
+(base) C:\Users\Lumpy\Documents\GitHub\exam-1-DakotaBosch>C:/Users/Lumpy/Anaconda3/python.exe c:/Users/Lumpy/Documents/GitHub/exam-1-DakotaBosch/srel.py
+
+Hello buddy, we're going camping...
+
+How many light years away is our camp ground? 10
+
+How fast should we drive? (enter speed as a fraction of the speed of light) 0.99
+An observer on Earth would perceive the trip to take 10.10 years
+From our point of view, it would take us 1.42 years

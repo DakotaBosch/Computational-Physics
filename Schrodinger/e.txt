@@ -1,0 +1,20 @@
+Ground State
+root = 0.4508704637029973 total iterations: 15
+Normalization constant= 0.0016740430121067174
+Expectation= 0.1250000014103548
+
+
+1st
+root = 1.5605274404366558 total iterations: 11
+Normalization constant= 0.015275217943302628
+Expectation= 0.12500001168917751
+
+2nd
+root = 2.5360954968918725 total iterations: 20
+Normalization constant= 0.0035463059017556762
+Expectation= 0.09090910089197324
+
+3rd
+root = 3.1245112634753767 total iterations: 16
+Normalization constant= 0.004299889899415513
+Expectation= 0.08331667196178963

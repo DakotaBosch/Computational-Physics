@@ -1,0 +1,2 @@
+I = 2pihc^2l^-5/e^(hc/lkt)-1
+dI/dl = 

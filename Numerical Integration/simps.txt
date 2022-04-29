@@ -1,0 +1,6 @@
+C:\Users\Lumpy\Documents\GitHub\assignment-3-numerical-integration-DakotaBosch>python simps.py
+Slices = 10, I =  4.400426666666668
+Slices = 100, I =  4.400000000004266
+Slices = 1000, I =  4.400000000004266
+
+The 10 step Simpson's rule produced a result .01% off of the true value. The results of the Simpson's rule are significantly more accurate which is expected. The Simpson's approximation is analogous to a second order approximation while Trapezoidal is first order.

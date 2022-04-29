@@ -1,0 +1,13 @@
+dakota@sweetness:~/Documents/Comp/assignment-4-monte-carlo-integration-DakotaBosch$ python sun.py 
+Mean Distance Squared: 104394.6 cm
+Average distance 11.199 cm
+
+
+/////////
+D(rms) = sqrt(N)*l
+D(rms) = 696,340 km 
+-> N = ( 696,340,000m / 0.01m )^2
+   N =  4.85 * 10^21
+
+Total distance traveled = N * 0.01m = 4.85*10^19m
+4.85*10^19m / (3*10^8 m/s) = 1.617*10^17s = 5123 years

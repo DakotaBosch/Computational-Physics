@@ -1,0 +1,20 @@
+ground
+root = 0.7071067711848996 total iterations: 10
+Normalization constant= 2.0424101780669894e-05
+Expectation= 0.12500000001452943
+
+1st
+root = 2.1213202935546964 total iterations: 16
+Normalization constant= 0.00013794424683274536
+Expectation= 0.12500000000988512
+
+2nd
+root = 3.535533775924493 total iterations: 14
+Normalization constant= 0.0006450193056529941
+Expectation= 0.12500000002425937
+
+
+3rd
+root = 4.9497472182942825 total iterations: 12
+Normalization constant= 0.002408935727205701
+Expectation= 0.12500000029230432

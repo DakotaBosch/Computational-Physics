@@ -1,0 +1,23 @@
+//PART A
+
+I(w)*dw = h*w^3/(4*pi^2*c^2*(e^(h*w/(k*T)-1))*dw	#thermal energy of a black body of unit area
+
+let w = x*k*T/h
+    dw = dx*k*T/h, where w goes from 0 to inf
+
+==> I(w)*dw = h*(x*k*T/h)^3/(4*pi^2*c^2*e^(h*(x*k*T/h)/(k*T))*(dx*k*T/h)
+   	    = k^4*T^4/(h^3*4*pi^2*c^2*(e^x-1))*dx
+	    = Work
+
+
+//PART B
+
+I used the monte carlo integration method with one million simulations because monte carlo is for nerd ballers like Bobby, also evaluating the integral at the endpoints is no bueno and monte carlo avoids that.
+My answer should be at least accurate to the hundreths place, I have made attempts to avoid overflow errors.
+
+
+(base) C:\Users\Lumpy\Documents\GitHub\exam-1-DakotaBosch>python boltzman.py
+The evaluated integrand is 6.492
+The Stefan-Boltzmann constant is 5.670E-08 in units of W*m^-2*K^-4
+
+The calculated stefan-boltzman constant is very close to the actual value.

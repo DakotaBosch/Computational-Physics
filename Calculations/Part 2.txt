@@ -1,0 +1,2 @@
+C:\Users\Lumpy\Documents\GitHub\assignment-1-intro-to-python-DakotaBosch>python QM.py
+The probability for transmission is 0.73 and the probability for reflection is 0.27

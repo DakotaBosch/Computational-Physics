@@ -1,0 +1,8 @@
+#3.
+On each run, the magnetization eventually reaches +/- 400. It appears that a system with an overall charge is more likely to be increase the magnitude of that charge than to decrease it. This results in each run approaching either plus or minus 400 total magnetization.
+
+#4.
+As T is increased the rate of convergence decreases greatly. Some of the trials take a very long time to approach +/- 400 magnetization. And even after they do they experience higher variation from 400 afterward. This makes sense as the probability of the spin being accepted has a positive correlation with T. Therefore a larger T leads to more flipping which leads to larger variance in the total magnetization of the system.
+
+#5.
+The specific heat decreases as T increases. This makes sense as the specific heat has a negative correlation with T. The implication is that a system with a higher temperature requires less heat to raise the temperature further. 

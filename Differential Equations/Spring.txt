@@ -1,0 +1,11 @@
+1.
+The motion becomes periodic after the initial transient motion
+
+2.
+Periodic
+
+3.
+Appears periodic
+
+4.
+The motion appears to be chaotic over the graphed time interval.

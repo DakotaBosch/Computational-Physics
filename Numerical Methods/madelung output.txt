@@ -1,0 +1,7 @@
+C:\Users\Lumpy\Documents\GitHub\assignment-2-more-python-and-accuracy-DakotaBosch>python madelung.py
+
+Hello user, give me an L value: 200
+The calculated Madelung constant is: 1.74469
+
+
+### This process took ~ 90s

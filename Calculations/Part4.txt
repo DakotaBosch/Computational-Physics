@@ -1,0 +1,18 @@
+v2^2 - 2GMv2/(v1l1) - (v1^2 -2GM/l1) = 0        #Quadratic equation
+v2 = ((2*G*M/v1/l1) -((2*G*M/v1/l1)**2+4*(v1**2-2*G*M/l1) )**(1.0/2))  /2   #smaller root
+
+((2*G*M/v1/l1) -((2*G*M/v1/l1)**2+4*(v1**2-2*G*M/l1) )**(1.0/2))**2/2 - 2GM(((2*G*M/v1/l1) -((2*G*M/v1/l1)**2+4*(v1**2-2*G*M/l1) )**(1.0/2))/2)/(v1l1) -(v1^2 -2GM/l1) = 0  #plugging smaller root into quadratic 
+
+0 = 0 # wow simplification
+
+
+
+C:\Users\Lumpy\Documents\GitHub\assignment-1-intro-to-python-DakotaBosch>python Orbit.py
+Hello bruv, please enter the distance to the sun at the perhilion:1.471e11
+Now enter the corresponding velocity:3.0287e4
+Semi-major axis(m): 1.50e+11 Semi-minor axis(m): 1.50e+11 Orbital period(yrs): 1.0 Orbital eccentricity: 0.01647
+
+C:\Users\Lumpy\Documents\GitHub\assignment-1-intro-to-python-DakotaBosch>python Orbit.py
+Hello bruv, please enter the distance to the sun at the perhilion:8.783e10
+Now enter the corresponding velocity:5.4529e4
+Semi-major axis(m): 2.69e+12 Semi-minor axis(m): 6.81e+11 Orbital period(yrs): 76.1 Orbital eccentricity: 0.9673

@@ -1,0 +1,15 @@
+Assignment #1    Total Grade: 18/20
+
+        General Comments: Please add more comments to your code
+
+Satellite:
+
+Potential Step:
+
+Massform:
+        No comments (-0.5)
+
+Planetary Orbit:
+        user promt does not specify units (-0.5)
+
+        Output from program is incorrect (-1.0)

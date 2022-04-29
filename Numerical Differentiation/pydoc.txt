@@ -1,0 +1,38 @@
+C:\Users\Lumpy\Documents\GitHub\assignment-5-numerical-differentiation-and-oop-DakotaBosch\mymodules
+>python -m pydoc int
+Help on module int:
+
+NAME
+    int - Integration module
+
+DESCRIPTION
+    monte carlo, trapezoid, simpsons, adaptive trapezoid, adaptive simpsons
+
+    Parameters:
+    f = function
+    a = lower bound
+    b = upper bound
+    N = number of slices
+    d = dimensions
+    h = slice size
+
+FUNCTIONS
+    asimp(f, a, b, N, h=0)
+        #Integration through adaptive Simpson's rule, doubles steps each iteration
+
+    atrap(f, a, b, N, h=0)
+        #Integration through adaptive trapezoidal rule, double steps each iteration
+
+    monte(f, a, b, N, d, h=0)
+        #Monte Carlo Integration method
+
+    simp(f, a, b, N, h=0)
+        #Integration by Simpson's rule
+
+    trap(f, a, b, N=0, h=0)
+        #Integration by Trapezoid rule
+
+FILE
+    c:\users\lumpy\documents\github\assignment-5-numerical-differentiation-and-oop-dakotabosch\mymodules\int.py
+
+

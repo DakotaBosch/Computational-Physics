@@ -1,0 +1,22 @@
+C:\Users\Lumpy\Documents\GitHub\assignment-2-more-python-and-accuracy-DakotaBosch>python quad.py
+Hello user please input the coefficents of the quadratic equation of the form; ax^2 + bx + c = 0. a = .001
+b = 1000
+c = -.001
+-9.9998942E-07 -1.0000000E+06 -1.0000000E-06 -1.0000106E+06
+
+
+###
+x = (-b +/- (b^2-4ac)^.5) / 2a
+x = ((-b +/- (b^2-4ac)^.5) / 2a ) * (-b -/+ (b^2-4ac)^.2)/(-b -/+ (b^2-4ac)^.5)
+x = (b^2 - (b^2-4ac) -b(b^2-4ac)^.5 +b(b^2-4ac)^.5)/ (-2ab -/+ 2a(b^2-4ac)^.5)
+x = 4ac / (2a(-b -/+ (b^2-4ac)^.5
+x = 2c / (-b -/+ (b^2-4ac))
+
+It appears that each method accurately finds one root and innacurately finds the other root. The two methods combined can find each method very accurately. The inaccurate root is a result of subtracting two very similar valued floats.
+
+C:\Users\Lumpy\Documents\GitHub\assignment-2-more-python-and-accuracy-DakotaBosch>python quad2.py
+Hello user please input the coefficents of the quadratic equation of the form; ax^2 + bx + c = 0. a = .001
+b = 1000
+c = .001
+-1.0000000E+06 -1.0000000E-06
+
